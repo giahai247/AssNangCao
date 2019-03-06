@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ListClass">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="1dp"
+            android:weightSum="100" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginRight="1dp"
+                android:layout_weight="10"
+                android:background="#F8CEF4"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:gravity="center|left"
+                android:paddingLeft="5dp"
+                android:text="STT" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginRight="1dp"
+                android:layout_weight="30"
+                android:background="#008000"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:gravity="center|left"
+                android:paddingLeft="5dp"
+                android:text="Mã lớp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_weight="60"
+                android:background="#008000"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:gravity="center|left"
+                android:paddingLeft="5dp"
+                android:text="Tên lớp" />
+        </TableRow>
+    </TableLayout>
+
+    <ListView
+        android:id="@+id/ltvListClass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+</LinearLayout>

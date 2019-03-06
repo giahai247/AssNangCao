@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ListClass">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="#02ADAD"
+        android:gravity="center"
+        android:text="Danh sách môn học"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="1dp"
+            android:weightSum="100" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginRight="1dp"
+                android:layout_weight="10"
+                android:background="#F78562"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:gravity="center|left"
+                android:paddingLeft="5dp"
+                android:text="MÃ MÔN" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="28dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="1dp"
+                android:layout_weight="30"
+                android:background="#008000"
+                android:gravity="center|left"
+                android:paddingLeft="5dp"
+                android:text="     TÊN MÔN"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="60"
+                android:background="#008000"
+                android:gravity="center|left"
+                android:paddingLeft="5dp"
+                android:text="   LỚP HỌC"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+        </TableRow>
+    </TableLayout>
+
+    <ListView
+        android:id="@+id/ltvListClass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+</LinearLayout>

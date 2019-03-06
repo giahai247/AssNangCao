@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Assignment</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_student">Student</string>
+    <string name="title_activity_add_student">Thêm Sinh Viên</string>
+    <string name="title_activity_create_class">Thêm Lớp</string>
+    <string name="title_activity_list_class">Danh Sách Lớp</string>
+    <string name="title_activity_news">Báo mới</string>
+    <string name="title_activity_maps">Bản Đồ</string>
+    <string name="title_activity_facebook">Facebook</string>
+    <string name="facebook_app_ID">770872883312263</string>
+    <string name="chucnag">Chức Năng Facebook</string>
+    <string name="name"> Name</string>
+    <string name="email"> Email</string>
+    <string name="fist_name"> First Name</string>
+</resources>
